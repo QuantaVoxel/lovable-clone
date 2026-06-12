@@ -1,0 +1,3 @@
+procs:
+  nextjs:
+    cmd: ['bun', 'dev']
