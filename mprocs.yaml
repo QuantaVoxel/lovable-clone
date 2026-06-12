@@ -5,3 +5,6 @@ procs:
   prisma :
     cmd: ['bun', 'run', 'db:studio']
     autostart: false
+  inngest:
+    cmd: ['npx', 'inngest-cli@latest', 'dev' ]
+    autostart: false

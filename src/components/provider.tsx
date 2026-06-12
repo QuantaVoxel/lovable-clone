@@ -2,6 +2,7 @@
 
 import { ThemeProvider } from "next-themes";
 import { TooltipProvider } from "@/components/ui/tooltip";
+import {Toaster} from "@/components/ui/sonner";
 
 export function AppProvider({ children }: { children: React.ReactNode }) {
    return (
@@ -14,6 +15,7 @@ export function AppProvider({ children }: { children: React.ReactNode }) {
          <TooltipProvider>
             {children}
          </TooltipProvider>
+         <Toaster richColors  />
       </ThemeProvider>
    );
 }
