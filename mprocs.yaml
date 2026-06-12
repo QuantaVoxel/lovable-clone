@@ -1,3 +1,7 @@
 procs:
   nextjs:
     cmd: ['bun', 'dev']
+    autorestart: true
+  prisma :
+    cmd: ['bun', 'run', 'db:studio']
+    autostart: false
